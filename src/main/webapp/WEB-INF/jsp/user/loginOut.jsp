@@ -9,6 +9,6 @@
 </head>
 <body>
 用户注销成功<br>
-<a href="http://app1.cas.com:8088/">登录</a>
+<a href="http://app2.cas.com:8089/">登录</a>
 </body>
 </html>
