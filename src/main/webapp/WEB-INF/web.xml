@@ -20,7 +20,6 @@
 		<listener-class>org.jasig.cas.client.session.SingleSignOutHttpSessionListener</listener-class>
 	</listener>
 	
-	
 	<!-- 单点登录的过滤器 -->
 	<filter>
 		<filter-name>CAS Single Sign Out Filter</filter-name>
