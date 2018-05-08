@@ -9,9 +9,9 @@
 </head>
 <body>
 <h1>当前所在子系统：测试系统1</h1>
-<h2><a href="http://app1.cas.com:8088">系统2</a></h2>
-<h2><a href="http://app2.cas.com:8099">系统1</a></h2>
-<b>Authenticated User Id:</b> <a href="logout.jsp" title="Click here to log out"><%= request.getRemoteUser() %>
+<h2><a href="http://app1.ngrok.xiaomiqiu.cn">系统2</a></h2>
+<h2><a href="http://app2.ngrok.xiaomiqiu.cn">系统1</a></h2>
+<b>Authenticated User Id:</b> <a href="javascript:void(0);" title="Click here to log out"><%= request.getRemoteUser() %>
 </a>
 <br/>
 <a href="<%=request.getContextPath() %>/loginOut1" title="Click here to log out">退出系统（方式1）</a>
@@ -62,6 +62,6 @@
         out.println("<pre>The user principal is empty from the request object. Review the wrapper filter configuration.</pre>");
     }
 %>
-<iframe style="width: 100%;" src="http://app2.cas.com:8099/"></iframe>
+<iframe style="width: 100%;" src="http://app2.ngrok.xiaomiqiu.cn/"></iframe>
 </body>
 </html>
