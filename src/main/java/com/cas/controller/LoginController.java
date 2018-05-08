@@ -32,7 +32,7 @@ public class LoginController {
         //退出当前系统
 
         //退出登录后，跳转到退成成功的页面，不走默认页面
-        return "redirect:https://www.cas.com:8443/logout?service=http://app2.cas.com:8089/loginOut/success";
+        return "redirect:https://www.cas.com:8443/logout?service=http://app2.ngrok.xiaomiqiu.cn/loginOut/success";
     }
 
     /**
