@@ -11,7 +11,7 @@
 <h1>当前所在子系统：测试系统2</h1>
 <h2><a href="http://app1.ngrok.xiaomiqiu.cn">系统1</a></h2>
 <h2><a href="http://app2.ngrok.xiaomiqiu.cn">系统2</a></h2>
-<b>Authenticated User Id:</b> <a href="logout.jsp" title="Click here to log out"><%= request.getRemoteUser() %>
+<b>Authenticated User Id:</b> <a href="javascript:void(0);" title="Click here to log out"><%= request.getRemoteUser() %>
 </a>
 <br/>
 <a href="<%=request.getContextPath() %>/loginOut1" title="Click here to log out">退出系统（方式1）</a>
